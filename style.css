@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bcbcbc;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#wrapper {
+    width: 1170px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.el-to-drag {
+    background-color: #aaaa00;
+    width: 150px;
+    height: 150px;
+    position: static;
+    margin: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: move;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+}
+
+
+
